@@ -1,4 +1,5 @@
-
+import sklearn
+st.write("sklearn loaded")
 import streamlit as st
 import pandas as pd
 import numpy as np
