@@ -8,8 +8,8 @@ import ast
 # -------------------------------
 # Step 1: Load Dataset
 # -------------------------------
-movies = pd.read_csv(r"D:\movie-recommender\tmdb_5000_movies.csv")
-credits = pd.read_csv(r"D:\movie-recommender\tmdb_5000_credits.csv")
+movies = pd.read_csv("tmdb_5000_movies.csv")
+credits = pd.read_csv("tmdb_5000_credits.csv")
 
 # -------------------------------
 # Step 2: Fix Column Name
