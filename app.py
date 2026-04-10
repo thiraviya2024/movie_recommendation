@@ -7,8 +7,8 @@ import ast
 # -------------------------------
 # Load Data
 # -------------------------------
-movies = pd.read_csv(r"D:\movie-recommender\tmdb_5000_movies.csv")
-credits = pd.read_csv(r"D:\movie-recommender\tmdb_5000_credits.csv")
+movies = pd.read_csv("tmdb_5000_movies.csv")
+credits = pd.read_csv("tmdb_5000_credits.csv")
 
 credits.rename(columns={'movie_id': 'id'}, inplace=True)
 movies = movies.merge(credits, on='id')
